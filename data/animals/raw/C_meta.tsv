@@ -1,0 +1,6 @@
+expt	cohort	cohort_alias	n	display	color	lty	x	display2	color2	lty2
+C	C_RES-07_DNMT1			E200K - control	#7570B3	3				
+C	C_RES-03_PRNP			sCJD MM1 - SpCBE3.9	#FF2019	1				
+C	C_RES-07_PRNP			E200K - SpCBE3.9	#7570B3	1				
+C	C_RES-03_DNMT1			sCJD MM1 - control	#FF2019	3				
+C	C_none			uninoculated	#A9A9A9	2				

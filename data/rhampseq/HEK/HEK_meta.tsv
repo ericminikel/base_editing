@@ -1,0 +1,4 @@
+treatment	offset	color
+GFP-sorted BE3.9max-treated	-0.25	#7FFF00
+unsorted BE3.9max-treated	0	#1080fe
+untreated	0.25	#a9a9a9
