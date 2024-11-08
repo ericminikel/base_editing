@@ -4,6 +4,8 @@ An & Davis 2024. **In vivo base editing extends lifespan of a humanized mouse mo
 
 Data from survival studies and off-target analyses run by the Vallabh/Minikel lab are housed here and the relevant figures and supplementary tables can be reproduced by running `. src/script_in_one.sh`. This runs in 10 seconds on a 2021 MacBook Air and will regenerate all the files in `output/` and `display_items/`
 
+The additional off-target analyses in revision require running 3 scripts: `src/01_rhampSeq_dedup.sh`, `src/02_crispresso_analysis.sh`, and `src/03_edit_eff.py`. The output is summarized in `output/PRNP_OT_summary.xlsx`
+
 Software versions used in this analysis:
 
 -   R 4.2.0
