@@ -1,10 +1,10 @@
-This repository holds raw data and source code for a manuscript in progress:
+This repository holds raw data and source code for the following manuscript:
 
-An & Davis 2024. **In vivo base editing extends lifespan of a humanized mouse model of prion disease.** In preparation.
+An M & Davis JR, Levy JM, Serack FE, Harvey JW, Brauer PP, Pirtle CP, Berríos KN, Newby GA, Yeh WH, Kamath N, Mortberg M, Lian Y, Howard M, DeSouza-Lenz K, Guzman K, Thai A, Graffam S, Coffey AA, Frei J, Pierce SE, Safar JG, Deverman BE, Minikel EV, Vallabh SM, Liu DR. **In vivo base editing extends lifespan of a humanized mouse model of prion disease.** _Nat Med._ 2025 Jan 14; [PMID: 39810005](https://pubmed.ncbi.nlm.nih.gov/39810005/). [Full text](https://www.vallabhminikel.org/publications/an-davis-2025-in-vivo-base-editing-extends.pdf)
 
 Data from survival studies and off-target analyses run by the Vallabh/Minikel lab are housed here and the relevant figures and supplementary tables can be reproduced by running `. src/script_in_one.sh`. This runs in 10 seconds on a 2021 MacBook Air and will regenerate all the files in `output/` and `display_items/`
 
-The additional off-target analyses in revision require running 3 scripts: `src/01_rhampSeq_dedup.sh`, `src/02_crispresso_analysis.sh`, and `src/03_edit_eff.py`. The output is summarized in `output/PRNP_OT_summary.xlsx`
+The additional off-target analyses added in revision require running 3 scripts: `src/01_rhampSeq_dedup.sh`, `src/02_crispresso_analysis.sh`, and `src/03_edit_eff.py`. The output is summarized in `output/PRNP_OT_summary.xlsx`
 
 Software versions used in this analysis:
 
